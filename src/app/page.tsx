@@ -22,7 +22,7 @@ export default function Home() {
         className="bg-transparent" 
         containerClassName="flex justify-between items-center p-4 sticky top-0 z-50" 
         buttonClassName="text-white" 
-        buttonBgClassName="bg-blue-600" 
+        buttonBgColor="bg-blue-600" 
       />
 
       <div id="hero" data-section="hero" className="scroll-mt-24 bg-gradient-to-r from-pink-500 to-blue-500">
