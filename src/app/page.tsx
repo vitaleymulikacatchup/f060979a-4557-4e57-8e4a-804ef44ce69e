@@ -86,7 +86,7 @@ export default function Home() {
           logoAlt="MemePulse Logo" 
           logoText="MemePulse" 
           className="bg-transparent" 
-          containerClassName="flex justify-between items-center" 
+          svgClassName="w-32" 
         />
       </div>
     </SiteThemeProvider>
