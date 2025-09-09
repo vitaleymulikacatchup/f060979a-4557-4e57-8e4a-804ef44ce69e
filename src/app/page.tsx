@@ -12,18 +12,7 @@ import FooterLogo from '@/components/footer/FooterLogo';
 export default function Home() {
   return (
     <SiteThemeProvider theme={{ styleVariant: "funAndTrendy", colorTemplate: 1, textAnimation: "slide" }}>
-      <NavbarBase logoSrc="/images/logo.svg" logoAlt="MemePulse" leftButtonText="Menu" rightButtonText="Contact" onLeftButtonClick={() => {}} onRightButtonClick={() => {}} className="bg-transparent" containerClassName="flex justify-between items-center p-4 sticky top-0 z-50" buttonClassName="text-white" buttonBgClassName="bg-blue-600">
-        <nav>
-          <ul className="flex space-x-4">
-            <li><a href="#hero" className="text-white">Hero</a></li>
-            <li><a href="#about" className="text-white">About</a></li>
-            <li><a href="#how-to-buy" className="text-white">How to Buy</a></li>
-            <li><a href="#tokenomics" className="text-white">Tokenomics</a></li>
-            <li><a href="#faq" className="text-white">FAQ</a></li>
-            <li><a href="#footer" className="text-white">Footer</a></li>
-          </ul>
-        </nav>
-      </NavbarBase>
+      <NavbarBase logoSrc="/images/logo.svg" logoAlt="MemePulse" leftButtonText="Menu" rightButtonText="Contact" onLeftButtonClick={() => {}} onRightButtonClick={() => {}} className="bg-transparent" containerClassName="flex justify-between items-center p-4 sticky top-0 z-50" buttonClassName="text-white" buttonBgClassName="bg-blue-600" />
 
       <div id="hero" data-section="hero" className="scroll-mt-24 bg-gradient-to-r from-pink-500 to-blue-500">
         <SplitHero title="Welcome to MemePulse" subtitle="Join the memecoin revolution!" primaryButtonText="Buy Now" secondaryButtonText="Learn More" onPrimaryButtonClick={() => {}} onSecondaryButtonClick={() => {}} />
